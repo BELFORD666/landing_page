@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+.header,.footer{
+    background-color: #1f2937;
+    color: white;
+}
+.top{
+    
+    display: flex;
+    align-items: stretch;
+   
+   
+}
+.top div{
+   display: flex;
+   margin-left: 150px;
+    flex-grow: 4;  
+}
+.top img{
+   max-width: 100px;
+   
+}
+
+.top ul{
+    display: flex;
+    gap: 30px;
+    flex-grow: 1;
+}
+a , .topp div p{
+    color: #efe7eb;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.topp{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+.topp div{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color: #3882f6;
+    width: 100px;
+    color: white;
+border-radius: 12px;
+    padding: 8px;
+    border: none;
+}
