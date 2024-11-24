@@ -3,12 +3,19 @@ body {
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
+    padding: 0px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .header,
 .footer {
     background-color: #1f2937;
     color: white;
+    margin-left: 0px;
 }
 
 .top {
@@ -142,4 +149,5 @@ button {
 .footer{
     display: flex;
     justify-content: center;
+    padding: 50px;
 }
