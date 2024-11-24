@@ -17,12 +17,19 @@ body {
     color: white;
     margin-left: 0px;
 }
+.header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .top {
 
     display: flex;
     align-items: stretch;
     padding: 16px;
+    justify-content: center;
+    gap: 400px;
 
 
 }
@@ -30,18 +37,19 @@ body {
 .top div {
     display: flex;
     margin-left: 150px;
-    flex-grow: 4;
+    
 }
 
 .top img {
-    max-width: 100px;
+    width: 100px;
 
 }
 
 .top ul {
     display: flex;
     gap: 30px;
-    flex-grow: 1;
+    margin-right: 190px;
+   
 }
 
 a,
@@ -56,11 +64,18 @@ a,
     display: flex;
     justify-content: center;
     gap: 120px;
+    padding: 50px;
 }
 
 .topp div {
     display: flex;
     flex-direction: column;
+    width: 300px;
+    gap: 20px;
+}
+.topp img{
+    width: 500px;
+    height: 300px;
 }
 
 button {
@@ -95,7 +110,8 @@ button {
 }
 
 .cont-1 div img {
-    max-width: 300px;
+    width: 300px;
+    height:300px;
 
 }
 
@@ -104,6 +120,7 @@ button {
     flex-direction: column;
     border-radius: 50px;
     border-color: rgb(158, 43, 7);
+    gap: 16px;
    
 }
 
